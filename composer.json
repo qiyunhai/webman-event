@@ -1,0 +1,26 @@
+{
+  "name": "qiyunhai/webman-event",
+  "type": "library",
+  "license": "MIT",
+  "description": "Webman plugin qiyunhai/webman-event",
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "authors": [
+    {
+      "name": "qiyunhai",
+      "email": "156457917@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Qiyunhai\\Event\\": "src"
+    },
+    "files": [
+      "src/helper.php"
+    ]
+  },
+  "require-dev": {
+    "workerman/webman": "^1.0"
+  }
+}
